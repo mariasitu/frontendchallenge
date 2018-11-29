@@ -1,0 +1,225 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #000;
+  font-family: Roboto;
+  font-size: 10px;
+  margin: 0 !important;
+}
+
+
+h1 {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1em;
+  margin: 0 !important;
+}
+
+
+h2 {
+  font-weight: normal;
+  font-size: 18px;
+  margin: 0 !important;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 !important;
+}
+
+p {
+  font-size: 14px;
+  margin: 0 !important;
+}
+
+
+.container {
+  margin: 0 auto;
+  width: 360px;
+  height: 720px;
+  background-color: #fff;
+  z-index: -2;
+  position: relative;
+}
+
+
+.fas {
+  color: #fff;
+}
+
+
+.status-bar {
+  margin: 0;
+  padding: 0 0 0 0px;
+  position: fixed;
+  width: 360px;
+  height: 24px;
+  background-color: #2F3E9E;
+}
+
+
+.wifi-icon {
+  /* float: right; */
+  position: absolute;
+  width: 16px;
+  height: 12px;
+  left: 250px;
+  top: 6px;
+}
+
+
+.battery-icon {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: 302px;
+  top: 5px;
+}
+
+
+.time {
+  position: absolute;
+  width: 33px;
+  height: 15px;
+  top: 5px;
+  left: 324px;
+  font-family: Roboto;
+  color: #fff;
+}
+
+
+.reception-icon {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: 276px;
+  top: 6px;
+}
+
+
+.nav {
+  position: fixed;
+  padding-left: 18px;
+  padding-top: 8px;
+  top: 24px;
+  width: 360px;
+  height: 56px;
+  background-color: #3E50B4;
+}
+
+.arrow-left {
+  display: inline-block;
+  position: relative;
+  padding-top: 8px;
+}
+
+.departure-times {
+  position: relative;
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 20px;
+  width: 200px;
+  color: #fff;
+}
+
+.stop-location {
+  margin: 0 0 0 0 !important;
+  width: 360px;
+  height: 54px;
+  position: fixed;
+  padding-left: 16px;
+  padding-bottom: 10px;
+  top: 80px;
+  background-color: #eee;
+  display: inline-block;
+}
+
+.location-icon {
+  display: inline-block;
+  position: fixed;
+  top: 98px;
+  left: 186px;
+  width: 9px;
+  height: 9px;
+}
+
+.washington-state {
+  display: inline-block;
+  position: fixed;
+  top: 98px;
+  right: 322px;
+  padding-left: 32px;
+  padding-bottom: 10px;
+}
+
+.tabs {
+  display: inline-table;
+  position: fixed;
+  top: 134px;
+  width: 360px;
+  height: 40px;
+  background-color: #fff;
+  margin: 0 !important;
+}
+
+.departures-tab {
+  display: inline-block;
+  padding-top: 8px;
+  padding-left: 40px;
+  background-color: #3E50B4;
+  width: 180px;
+  height: 100%;
+  color: #fff;
+  border-bottom: 3px solid #FBBC05;
+  margin: 0 !important;
+
+}
+
+.stop-info-tab {
+  display: inline-block;
+  padding-top: 8px;
+  padding-left: 50px;
+  width: 180px;
+  height: 100%;
+  border-bottom: 1px solid #000;
+  margin: 0 !important;
+
+}
+
+
+.accordion-master {
+  position: relative;
+  top: 174px;
+  z-index: -1;
+}
+
+.directions {
+  display: inline-block;
+  background-color: #eee;
+  padding-left: 18px;
+  padding-top: 4px;
+  width: 100%;
+  height: 30px;
+  text-align: left;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+table {
+  position: relative;
+  display: inline;
+  border: collapse;
+  background-color: #fff;
+  width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding-left: 18px;
+    padding-top: 2px;
+    padding-bottom: 6px;
+}
